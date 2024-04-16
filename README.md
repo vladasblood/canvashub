@@ -2,6 +2,7 @@
 CanvasHub is an IT120P Project for Mapua University.
 
 <hr>
+
 ## Timeline Changes (Agile Methodology)
 ### Week 6
 - [X] Propose ERD System
@@ -33,6 +34,7 @@ CanvasHub is an IT120P Project for Mapua University.
 - [ ] Connect > Backend and Frontend with Web Service 
 
 <hr>
+
 ## Meet the Team
 ### Undergraduate Students taking Bachelor of Science in Computer Science
 Ferry:
