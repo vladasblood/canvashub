@@ -1,8 +1,8 @@
 # CanvasHub - Documentation
 CanvasHub is an IT120P Project for Mapua University.
 
+<hr>
 ## Timeline Changes (Agile Methodology)
-
 ### Week 6
 - [X] Propose ERD System
 - [X] Final Draft
@@ -16,7 +16,9 @@ CanvasHub is an IT120P Project for Mapua University.
 
 ### Week 8
 - [X] Generate > The System Usability Scale (SUS) Survey
-- [ ] Publicize > Survey with Prototype Testing
+- [X] Publicize > Survey with Prototype Testing
+- [ ] Gather > Interpret Results of the Survey
+- [ ] Improve > Enhance overall application usability depending on the results and discussion
 
 ### Week 9
 - [X] Research Cloud Hosting Services
@@ -27,14 +29,19 @@ CanvasHub is an IT120P Project for Mapua University.
 - **FRONTEND**: Java Android Studio Project of Gradle Project
 
 ### Week 10
-- [X] 
+- [ ] Complete > Frontend Design
+- [ ] Connect > Backend and Frontend with Web Service 
 
 <hr>
-
 ## Meet the Team
-### Bachelor of Science in Computer Science
-Ferry: 
+### Undergraduate Students taking Bachelor of Science in Computer Science
+Ferry:
+<br>
 Guerrero:
+<br>
 Macaspac:
+<br>
 Oplado:
+<br>
 Pajarillo:
+<br>
