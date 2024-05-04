@@ -13,7 +13,7 @@ CanvasHub is an IT120P Project for Mapúa University.
 
 ### Source APK
 
-- [CanvasHub APK](canvashub-apk)
+- Version 1.0.0 [CanvasHub APK](canvashub-apk)
 
 ---
 
@@ -52,6 +52,10 @@ CanvasHub is an IT120P Project for Mapúa University.
 - [X] Complete > Frontend Design
 - [X] Connect > Backend and Frontend with Web Service
 - [X] Deploy > [Render](https://render.com/)
+
+### Week 11
+
+- [X] SUS Survey of the Deployed Application
 
 ---
 
