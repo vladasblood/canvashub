@@ -1,0 +1,22 @@
+<resources>
+    <!-- Base application theme for light mode -->
+    <style name="Base.Theme.CanvasHub.Light" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here -->
+        <!-- Example: <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <!-- Base application theme for dark mode -->
+    <style name="Base.Theme.CanvasHub.Dark" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here -->
+        <!-- Example: <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <!-- Apply the default theme based on system mode -->
+    <style name="Theme.CanvasHub" parent="Base.Theme.CanvasHub.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+</resources>

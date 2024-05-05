@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/storePrice"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/store_list_row_productPreview"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/red_hat_text"
+        android:text="Price"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <ImageView
+        android:id="@+id/store_list_row_productPreview"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@color/black" />
+
+    <TextView
+        android:id="@+id/storeName"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/store_list_row_productPreview"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/maven_pro"
+        android:text="Name: "
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <TextView
+        android:id="@+id/storeQuantity"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/storeName"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="13dp"
+        android:layout_toRightOf="@+id/store_list_row_productPreview"
+        android:fontFamily="@font/red_hat_text"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/productQuantity_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/storeName"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toRightOf="@+id/store_list_row_productPreview"
+        android:backgroundTint="@color/indigodye"
+        android:includeFontPadding="false"
+        android:padding="1sp"
+        android:text="+"
+        android:textColor="@color/babypowder"
+        android:textColorLink="@color/babypowder" />
+
+    <Button
+        android:id="@+id/productQuantity_subtract"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/storeName"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toRightOf="@+id/store_list_row_productPreview"
+        android:backgroundTint="@color/indigodye"
+        android:includeFontPadding="false"
+        android:padding="1sp"
+        android:text="-"
+        android:textColor="@color/babypowder"
+        android:textColorLink="@color/babypowder" />
+
+    <Button
+        android:id="@+id/productQuantity_add_cart"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/storeName"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toRightOf="@+id/store_list_row_productPreview"
+        android:backgroundTint="@color/indigodye"
+        android:includeFontPadding="false"
+        android:padding="16sp"
+        android:textColor="@color/babypowder"
+        android:textColorLink="@color/babypowder"
+        app:icon="@drawable/icon_cart"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:progressDrawable="@drawable/progress_bar_custom"
+        android:progressTint="@color/black"
+        android:progressTintMode="src_over"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

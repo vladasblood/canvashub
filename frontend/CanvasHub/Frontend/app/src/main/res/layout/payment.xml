@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFCC94"
+    tools:context=".payment">
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="0dp"
+        android:layout_height="59dp"
+        android:background="@color/powderblue"
+        android:fontFamily="@font/maven_pro"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:padding="0dp"
+        android:text="Summary"
+        android:textAlignment="gravity"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.AppCompat.Transparent.NoActionBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:tabGravity="fill"
+        app:tabIconTint="#344966"
+        app:tabIndicatorColor="#008B29"
+        app:tabMaxWidth="0dp"
+        app:tabMode="fixed"
+        app:tabRippleColor="#008B29">
+
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/homebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#008B29"
+            android:backgroundTint="#008B29"
+            android:clickable="true"
+            android:foregroundTint="#008B29"
+            android:icon="@drawable/icon_home"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="682dp" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/searchbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F0F4EF"
+            android:backgroundTint="#F0F4EF"
+            android:clickable="true"
+            android:icon="@drawable/icon_search"
+            tools:ignore="SpeakableTextPresentCheck"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="682dp" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/cartbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F0F4EF"
+            android:backgroundTint="#F0F4EF"
+            android:clickable="true"
+            android:icon="@drawable/icon_cart"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/paymentbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F0F4EF"
+            android:backgroundTint="#F0F4EF"
+            android:clickable="true"
+            android:icon="@drawable/icon_card"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/profilebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#F0F4EF"
+            android:backgroundTint="#F0F4EF"
+            android:clickable="true"
+            android:icon="@drawable/icon_profile"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </com.google.android.material.tabs.TabLayout>
+
+    <ListView
+        android:id="@+id/paymentTotalPerStoreListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/round_rect_shape_less_white_list_view"
+        app:layout_constraintBottom_toTopOf="@+id/tabLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/progress_bar_custom"
+        android:progressTint="@color/black"
+        android:progressTintMode="src_over"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
