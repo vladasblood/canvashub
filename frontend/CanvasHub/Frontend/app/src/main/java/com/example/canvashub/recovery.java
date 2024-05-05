@@ -112,8 +112,8 @@ public class recovery extends AppCompatActivity {
             @Override
             public void run() {
                 try {
-                    final String senderEmail = "noreply.canvashub@gmail.com";
-                    final String senderPassword = "yyqrblblednpmbye";
+                    final String senderEmail = "sender-email";
+                    final String senderPassword = "sender-password";
                     final String receiverEmail = email;
 
                     String host = "smtp.gmail.com";
