@@ -15,7 +15,7 @@ public class retrofitService {
 
     private void initializeRetrofit() {
         retrofit = new Retrofit.Builder()
-                .baseUrl("https://canvashub-render.onrender.com")
+                .baseUrl("url-here")
                 .addConverterFactory(GsonConverterFactory.create(new Gson()))
                 .build();
     }
