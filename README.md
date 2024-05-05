@@ -13,7 +13,7 @@ CanvasHub is an IT120P Project for Mapúa University.
 
 ### Source APK
 
-- Version 1.0.0 [CanvasHub APK](canvashub-apk)
+- Version 1.0.0 [CanvasHub APK](https://drive.google.com/drive/folders/1L33pm7b4Rk1aOUouyTxh_9uWaZTlpfr8?usp=sharing)
 
 ---
 
@@ -30,7 +30,7 @@ CanvasHub is an IT120P Project for Mapúa University.
 
 - [X] Propose ERD System
 - [X] Final Draft
-- [Access CanvasHub ERD](OneDrive-Link)
+- [Access CanvasHub ERD](https://drive.google.com/file/d/1KuEH9l2-8QJxrmlmbiu7l0eDq00BrXgW/view?usp=sharing)
 
 ### Week 7
 
