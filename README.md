@@ -20,7 +20,7 @@ CanvasHub is an IT120P Project for Mapúa University.
 ### Contact Us to Access
 
 - GIT IGNORE: `application.properties` contains database access
-- `retrofit-baseurl` contains cloud service provider
+- GIT IGNORE: `retrofit-baseurl` contains cloud service provider
 - SQL files are `dummy` data
 
 ## Timeline Changes (Agile Methodology)
