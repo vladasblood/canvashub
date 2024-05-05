@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFCC94"
+    tools:context=".recovery">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BFCC94"
+        tools:context=".login"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="29dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="29dp"
+            android:fontFamily="@font/maven_pro"
+            android:text="Password Recovery"
+            android:textColor="#344966"
+            android:textSize="40sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="35dp"
+            android:layout_marginTop="224dp"
+            android:layout_marginEnd="331dp"
+            android:backgroundTint="@color/black"
+            android:fontFamily="@font/maven_pro"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <EditText
+            android:id="@+id/input_Email"
+            android:layout_width="342dp"
+            android:layout_height="58dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="336dp"
+            android:backgroundTint="@color/black"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="169dp"
+            android:layout_marginTop="14dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/lock_icon" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="336dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="37dp"
+            android:layout_marginTop="481dp"
+            android:backgroundTint="#344966"
+            android:fontFamily="@font/maven_pro"
+            android:text="Send Email"
+            android:textColor="@color/babypowder"
+            android:textColorLink="@color/babypowder"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

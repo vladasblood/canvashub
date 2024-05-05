@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BFCC94"
+    android:backgroundTint="#BFCC94"
+    tools:context=".item_selected">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="414dp"
+        android:layout_height="255dp"
+        android:layout_marginBottom="476dp"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="411dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="307dp"
+        android:layout_marginBottom="359dp"
+        android:background="#B4CDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="299dp"
+        android:fontFamily="@font/red_hat_text"
+        android:text="Location:"
+        android:textColor="#008B29"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="372dp"
+        android:fontFamily="@font/maven_pro"
+        android:text="Pineapple"
+        android:textColor="#344966"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="438dp"
+        android:layout_marginEnd="329dp"
+        android:layout_marginBottom="266dp"
+        android:fontFamily="@font/red_hat_text"
+        android:text="Stocks:"
+        android:textColor="#008B29"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="337dp"
+        android:layout_marginTop="329dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="372dp"
+        android:fontFamily="@font/maven_pro"
+        android:text="$2.15"
+        android:textColor="#008B29"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="109dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="299dp"
+        android:fontFamily="@font/red_hat_text"
+        android:text="ABC Grocery Store"
+        android:textColor="#344966"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="438dp"
+        android:layout_marginEnd="310dp"
+        android:layout_marginBottom="266dp"
+        android:text="2"
+        android:textColor="#344966"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="302dp"
+        android:layout_height="163dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="533dp"
+        android:background="@drawable/oval_shape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="533dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pineapplehq" />
+</androidx.constraintlayout.widget.ConstraintLayout>

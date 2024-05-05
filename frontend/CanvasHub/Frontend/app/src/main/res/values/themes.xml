@@ -1,0 +1,16 @@
+<resources>
+    <!-- Define your custom colors -->
+    <color name="my_text_color">#000000</color> <!-- Example color value -->
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CanvasHub" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Set the text color -->
+        <item name="colorAccent">@color/black</item>
+        <item name="android:textColor">@color/my_text_color</item>
+    </style>
+
+    <style name="Theme.AppCompat.Transparent.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"> <item name="colorAccent">@color/black</item> </style>
+
+    <!-- Apply your base theme to the overall app theme -->
+    <style name="Theme.CanvasHub" parent="Base.Theme.CanvasHub"> <item name="colorAccent">@color/black</item> </style>
+</resources>
